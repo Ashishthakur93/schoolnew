@@ -1,0 +1,692 @@
+       *
+        {
+            margin: 0px;
+        }
+        
+
+        #top{
+            height: 30px;
+            width: 100%;
+            background-color: yellow;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        #title
+        {
+            width: 100%;
+            height: 100px;
+            background-color:#dadedf;
+        }
+        #logo
+        {
+            width: 20px;
+            height: 100px;
+            float: left;
+        }
+        #name
+        {
+           height: 100px;
+           width: 80%;
+           float: right;
+           line-height: 90px;
+           text-align: center;
+           font-size: 40px;
+           color:rgb(27, 2, 2);
+        }
+        #img1
+        {
+            width: 300px;
+            height: 100px;
+        }
+        #menu
+        {
+            height: 50px;
+            width: 100%;
+            background-color: #dadedf;
+            /* position: relative; */
+            position: sticky;
+            top: 0px;
+            
+        }
+        #menu ul{
+            list-style: none;
+        }
+        #menu ul li{
+            height: 50px;
+            width: 150px;
+            background-color: cadetblue;
+            border: 1px solid white;
+            float: left;
+            /* margin-top: 10px; */
+            text-align: center;
+            line-height: 50px;
+            border-radius: 0px;
+            margin-left: 20px;
+            font-weight: bold;
+            transition: 2s,3s;
+        }
+        #menu ul li a{
+            color:black;
+            text-decoration: none;
+        }
+        #menu ul ul{
+            display: none;
+            padding-left: 20px;
+        }
+        #menu ul ul li{
+            margin-left: -20px;
+        }
+        
+        #menu ul li:hover
+        {
+            background-color: chartreuse;
+            /* height:55px;
+            width: 170px; */
+        }
+        #menu ul li:hover>ul
+        {
+            display: block;
+        }
+        #menu ul ul ul
+        {
+            margin-left: 150px;
+            margin-top: -50px;
+        }
+        #img2
+        {
+            height: 700px;
+            width: 100%;
+        }
+        h1
+           {
+               color: rgb(58, 5, 5);
+               text-align: center;
+               line-height: 100px;
+               font-size: 50px;
+           }
+           .news
+           {
+               display: flex;
+               flex-direction: row;
+               transition: all 2s;
+               /* position: relative; */
+           }
+           .news1
+           {
+               background-color: lightgray;
+               height: 400px;
+               width: 350px;
+               margin-left: 100px;
+               font-size: 20px;
+               text-align: center;
+               line-height: 50px;
+               color: gray;
+           }
+           .news1:hover
+           {
+               /* transform: translate(12px,12px); */
+               transform: scale(1.1);
+           }
+           .news2
+           {
+               background-color: lightgray;
+               height: 400px;
+               width: 350px;
+               margin-left: 50px;
+               font-size: 20px;
+               text-align: center;
+               line-height: 50px;
+               color: gray;
+           }
+           .news2:hover
+           {
+               /* transform: translate(12px,12px); */
+               transform: scale(1.1);
+           }
+           .news3
+           {
+               background-color: lightgray;
+               height: 400px;
+               width: 350px;
+               margin-left: 50px;
+               font-size: 20px;
+               text-align: center;
+               line-height: 50px;
+               color: gray;
+           }
+           .news3:hover
+           {
+               /* transform: translate(12px,12px); */
+               transform: scale(1.1);
+           }
+           #last
+           {
+               display: flex;
+               flex-direction: row;
+           }
+           #last1
+           {
+               height: 200px;
+               width: 300px;
+               background-color: lightgray;
+               margin-left: 80px;
+               margin-top: 50px;
+               font-size: 20px;
+               text-align: center;
+           }
+           #last2
+           {
+               height: 200px;
+               width: 300px;
+               background-color: lightgray;
+               margin-left: 80px;
+               margin-top: 50px;
+               font-size: 20px;
+               text-align: center;
+           }
+           #last3
+           {
+               height: 200px;
+               width: 300px;
+               background-color: lightgray;
+               margin-left: 80px;
+               margin-top: 50px;
+               font-size: 20px;
+               text-align: center;
+           }
+           #last4
+           {
+               height: 140px;
+               width: 300px;
+               background-color: lightgray;
+               margin-left: 50px;
+               margin-top: 50px;
+           }
+           #last
+           {
+               background-color: black;
+               height: 400px;
+               width: 100%;
+           }
+           #end{
+               height: 60px;
+               width: 100%;
+               background-color: rgb(32, 32, 46);
+               text-align: center;
+               padding-top: 25px;
+               font-weight: bold;
+           }
+            /* start News */
+            *{
+                margin: 0px;
+            }
+            #Newsimg1{
+            height: 700px;
+            width: 100%;
+            }
+            h1{
+            font-size: 50px;
+            }
+            hr{
+            height:4px;
+            width: 250px; 
+            background-color: brown;
+            }
+            p{
+            font-size: 21px;
+            text-align: center;
+
+            }
+            #News-banner{
+            height: 600px;
+            width: 1200px;
+            }
+            #News-banner:hover{
+                transform: scale(1.05);
+            }
+            .News-f
+            {
+                display: flex;
+                flex-direction: row;
+                transition: all 2s;
+                /* position: relative; */
+            }
+            .f1
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 60px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f1:hover{
+                transform: scale(1.05);
+            }
+            .f2
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 20px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f2:hover{
+                transform: scale(1.05);
+            }
+            .f3
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 20px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f3:hover{
+                transform: scale(1.05);
+            }
+            /* end News */
+
+                        /* start about Us */
+            *{
+                margin: 0px;
+            }
+            #aboutimg1{
+            height: 700px;
+            width: 100%;
+            }
+            h1{
+            font-size: 50px;
+            }
+            hr{
+            height:4px;
+            width: 250px; 
+            background-color: brown;
+            }
+            p{
+            font-size: 21px;
+            text-align: center;
+
+            }
+            #about-banner{
+            height: 600px;
+            width: 1200px;
+            }
+            .about-f
+            {
+                display: flex;
+                flex-direction: row;
+                transition: all 2s;
+                /* position: relative; */
+            }
+            .f1
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 60px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f1:hover{
+                transform: scale(1.05);
+            }
+            .f2
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 20px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f2:hover{
+                transform: scale(1.05);
+            }
+            .f3
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 20px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f3:hover{
+                transform: scale(1.05);
+            }
+            
+            /* end about Us */
+
+                        /* Start Admissions */
+        *{
+            margin: 0px;
+        }
+        #Admissions-img1{
+        height: 700px;
+        width: 100%;
+        }
+        h1{
+        font-size: 50px;
+        }
+        hr{
+        height:4px;
+        width: 250px; 
+        background-color: brown;
+        }
+        p{
+        font-size: 21px;
+        text-align: center;
+
+        }
+        #Admissions-banner{
+        height: 600px;
+        width: 1200px;
+        }
+        .Admissions-f
+        {
+            display: flex;
+            flex-direction: row;
+            transition: all 2s;
+            /* position: relative; */
+        }
+        .f1
+        {
+            background-color: lightgray;
+            height: 350px;
+            width: 400px;
+            margin-left: 60px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+            color: gray;
+        }
+        .f1:hover{
+            transform: scale(1.05);
+        }
+        .f2
+        {
+            background-color: lightgray;
+            height: 350px;
+            width: 400px;
+            margin-left: 20px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+            color: gray;
+        }
+        .f2:hover{
+            transform: scale(1.05);
+        }
+        .f3
+        {
+            background-color: lightgray;
+            height: 350px;
+            width: 400px;
+            margin-left: 20px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+            color: gray;
+        }
+        .f3:hover{
+            transform: scale(1.05);
+        }
+        /* End Admissions */
+
+             /* start Academic Us */
+        *{
+            margin: 0px;
+        }
+        #Academicimg1{
+        height: 700px;
+        width: 100%;
+        }
+        h1{
+        font-size: 50px;
+        }
+        hr{
+        height:4px;
+        width: 250px; 
+        background-color: brown;
+        }
+        p{
+        font-size: 21px;
+        text-align: center;
+
+        }
+        #Academic-banner{
+        height: 600px;
+        width: 1200px;
+        }
+        #Academic-banner:hover{
+            transform: scale(1.05);
+        }
+        .Academic-f
+        {
+            display: flex;
+            flex-direction: row;
+            transition: all 2s;
+            /* position: relative; */
+        }
+        .f1
+        {
+            background-color: lightgray;
+            height: 350px;
+            width: 400px;
+            margin-left: 60px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+            color: gray;
+        }
+        .f1:hover{
+            transform: scale(1.05);
+        }
+        .f2
+        {
+            background-color: lightgray;
+            height: 350px;
+            width: 400px;
+            margin-left: 20px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+            color: gray;
+        }
+        .f2:hover{
+            transform: scale(1.05);
+        }
+        .f3
+        {
+            background-color: lightgray;
+            height: 350px;
+            width: 400px;
+            margin-left: 20px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+            color: gray;
+        }
+        .f3:hover{
+            transform: scale(1.05);
+        }
+        /* end Academic Us */
+
+                    /* start School Life */
+            *{
+                margin: 0px;
+            }
+            #Schoolimg1{
+            height: 700px;
+            width: 100%;
+            }
+            h1{
+            font-size: 50px;
+            }
+            hr{
+            height:4px;
+            width: 250px; 
+            background-color: brown;
+            }
+            p{
+            font-size: 21px;
+            text-align: center;
+
+            }
+            #School-banner{
+            height: 600px;
+            width: 1200px;
+            }
+            #School-banner:hover{
+                transform: scale(1.05);
+            }
+            .School-f
+            {
+                display: flex;
+                flex-direction: row;
+                transition: all 2s;
+                /* position: relative; */
+            }
+            .f1
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 60px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f1:hover{
+                transform: scale(1.05);
+            }
+            .f2
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 20px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f2:hover{
+                transform: scale(1.05);
+            }
+            .f3
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 20px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f3:hover{
+                transform: scale(1.05);
+            }
+            /* end School life */
+
+                        /* start Co-curriculum */
+            *{
+                margin: 0px;
+            }
+            #Curriculumimg1{
+            height: 700px;
+            width: 100%;
+            }
+            h1{
+            font-size: 50px;
+            }
+            hr{
+            height:4px;
+            width: 250px; 
+            background-color: brown;
+            }
+            p{
+            font-size: 21px;
+            text-align: center;
+
+            }
+            #Curriculum-banner{
+            height: 600px;
+            width: 1200px;
+            }
+            #Curriculum-banner:hover{
+                transform: scale(1.05);
+            }
+            .Curriculum-f
+            {
+                display: flex;
+                flex-direction: row;
+                transition: all 2s;
+                /* position: relative; */
+            }
+            .f1
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 60px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f1:hover{
+                transform: scale(1.05);
+            }
+            .f2
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 20px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f2:hover{
+                transform: scale(1.05);
+            }
+            .f3
+            {
+                background-color: lightgray;
+                height: 350px;
+                width: 400px;
+                margin-left: 20px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 30px;
+                color: gray;
+            }
+            .f3:hover{
+                transform: scale(1.05);
+            }
+            /* end Co-curriculum */
+
+        
+         
+                                                                                                
+
